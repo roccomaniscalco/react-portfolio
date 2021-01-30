@@ -9,7 +9,8 @@ const Nav = () => {
   return (
     <>
       <header>
-        <a id="logo" href="/">
+      {/* eslint-disable-next-line */}
+        <a id="logo" href="#">
           <strong>ROCCO</strong>
           <strong>MANISCALCO</strong>
         </a>
