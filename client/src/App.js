@@ -1,7 +1,13 @@
+import Landing from "./components/Landing";
 import Nav from "./components/Nav";
 
 function App() {
-  return <Nav/>;
+  return (
+    <>
+      <Nav />
+      <Landing />
+    </>
+  );
 }
 
 export default App;
