@@ -1,7 +1,7 @@
-import About from "./components/About";
-import Landing from "./components/Landing";
+import About from "./containers/About";
+import Landing from "./containers/Landing";
 import Nav from "./components/Nav";
-import Projects from "./components/Projects";
+import Projects from "./containers/Projects";
 
 function App() {
   return (

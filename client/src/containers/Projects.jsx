@@ -16,7 +16,7 @@ const Projects = () => {
             className="site"
           > </a>
           <div className="inner">
-            <img src="./assets/covid.png" alt="" />
+            <img src="./assets/covid.png" alt="Covid Cost" />
             <h3>COVID Cost</h3>
             <a
               href="https://github.com/roccomaniscalco/covid-cost"
@@ -36,7 +36,7 @@ const Projects = () => {
             className="site"
           > </a>
           <div className="inner">
-            <img src="./assets/weather.png" alt="" />
+            <img src="./assets/weather.png" alt="Weather Dashboard" />
             <h3>Weather Dashboard</h3>
             <a
               href="https://github.com/roccomaniscalco/weather-dashboard"
