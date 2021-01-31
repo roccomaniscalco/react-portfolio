@@ -3,6 +3,7 @@ import Landing from "./containers/Landing";
 import Nav from "./components/Nav";
 import Projects from "./containers/Projects";
 import Footer from "./components/Footer";
+import Contact from "./containers/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <About/>
         <Projects/>
+        <Contact/>
       </main>
       <Footer/>
     </>
