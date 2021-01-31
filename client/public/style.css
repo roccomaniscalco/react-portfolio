@@ -10,6 +10,7 @@
 
 body {
   background-color: #1a1a1a;
+  height: 100%;
 }
 
 /* NAV */
@@ -100,13 +101,12 @@ nav a {
 #footer {
   height: 70px;
   margin-top: -70px;
-  background-color: #41b95b ;
+  background-color: #41b95b;
 }
 
 #footer p {
   padding-top: 21px;
   text-align: center;
-  
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -119,9 +119,7 @@ nav a {
 #landing {
   position: relative;
   height: 100vh;
-  padding: 0 5vw;
   overflow-x: hidden;
-  margin: 0 0 150px 0;
 }
 
 #me {
@@ -161,6 +159,7 @@ nav a {
 
 main {
   margin: 30px;
+  min-height: 100%;
 }
 
 main section {
@@ -489,7 +488,7 @@ input {
 
   #contactInfo a {
     font-size: 12px;
-    padding: 15px 15px 22px 15px ;
+    padding: 15px 15px 22px 15px;
   }
 
   #contactInfo i {

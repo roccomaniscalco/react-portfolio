@@ -1,28 +1,28 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
-    return (
-        <section id="contact">
+  return (
+    <main>
+      <section id="contact">
         <header>
-          <span class="num">03</span>
+          <span className="num">03</span>
           <h2>Contact</h2>
         </header>
         <div id="contactGrid">
           <div id="contactInfo">
             <a href="mailto:roccomaniscalco2001@gmail.com">
-              <i class="fas fa-envelope-square fa-2x"></i>
+              <i className="fas fa-envelope-square fa-2x"></i>
               roccomaniscalco2001@gmail.com
             </a>
             <a href="tel:404-910-2897">
-              <i class="fas fa-phone-square fa-2x"></i>
-              1 404 910 2897
+              <i className="fas fa-phone-square fa-2x"></i>1 404 910 2897
             </a>
             <a
               href="https://github.com/roccomaniscalco"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fab fa-github-square fa-2x"></i>
+              <i className="fab fa-github-square fa-2x"></i>
               Github
             </a>
             <a
@@ -30,7 +30,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fab fa-linkedin fa-2x"></i>
+              <i className="fab fa-linkedin fa-2x"></i>
               Linkedin
             </a>
             <a
@@ -38,7 +38,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="far fa-file-pdf fa-2x"></i>
+              <i className="far fa-file-pdf fa-2x"></i>
               Resume
             </a>
           </div>
@@ -56,7 +56,8 @@ const Contact = () => {
           </form>
         </div>
       </section>
-    );
+    </main>
+  );
 };
 
 export default Contact;
