@@ -1,6 +1,22 @@
 import React from "react";
+import Project from "../components/Project";
 
 const Projects = () => {
+  const projects = [
+    {
+      title: "COVID cost",
+      deployedURL: "https://roccomaniscalco.github.io/covid-cost/",
+      repoURL: "https://github.com/roccomaniscalco/covid-cost",
+      img: "./assets/covid.png",
+    },
+    {
+      title: "Weather Dashboard",
+      deployedURL: "https://roccomaniscalco.github.io/weather-dashboard/",
+      repoURL: "https://github.com/roccomaniscalco/weather-dashboard",
+      img: "./assets/weather.png",
+    },
+  ];
+
   return (
     <main>
       <section id="projects">
@@ -9,50 +25,9 @@ const Projects = () => {
           <h2>Projects</h2>
         </header>
         <div id="projectGrid">
-          <div className="project">
-            <a
-              href="https://roccomaniscalco.github.io/covid-cost/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="site"
-            >
-              {" "}
-            </a>
-            <div className="inner">
-              <img src="./assets/covid.png" alt="Covid Cost" />
-              <h3>COVID Cost</h3>
-              <a
-                href="https://github.com/roccomaniscalco/covid-cost"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="repo"
-              >
-                <i className="fab fa-github fa-2x" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <div className="project">
-            <a
-              href="https://roccomaniscalco.github.io/weather-dashboard/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="site"
-            >
-              {" "}
-            </a>
-            <div className="inner">
-              <img src="./assets/weather.png" alt="Weather Dashboard" />
-              <h3>Weather Dashboard</h3>
-              <a
-                href="https://github.com/roccomaniscalco/weather-dashboard"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="repo"
-              >
-                <i className="fab fa-github fa-2x" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
+          {projects.map((project) => (
+            <Project {...project} />
+          ))}
         </div>
       </section>
     </main>
